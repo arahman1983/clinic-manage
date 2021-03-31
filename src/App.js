@@ -1,9 +1,12 @@
-import './i18n';
+import { useTranslation } from 'react-i18next';
 
 function App() {
+  const {t} = useTranslation()
   return (
     <div className="App">
-      Smart Clinic
+      {
+        t('siteName')
+      }
     </div>
   );
 }
