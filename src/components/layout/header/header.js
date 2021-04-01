@@ -1,13 +1,15 @@
 import styles from './header.module.css';
-import {useTranslation} from 'i18next'
+import { useTranslation } from 'react-i18next';
+import UserCard from '../userCard/userCard'
 
 function Header () {
   const {t} = useTranslation()
   return(
     <div className={`row ${styles.headerContainer}`}>
-      {
-        t('siteName')
-      }
+      <div className="logo">
+        <span>{ t('siteName') }</span>
+      </div>
+      <UserCard />
     </div>
   )
 }

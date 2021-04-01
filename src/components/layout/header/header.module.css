@@ -1,3 +1,20 @@
 .headerContainer{
-  
+  background-color: var(--success-color);
+  width: 100%;
+  height: 100px;
+  color: var(--main-color);
+  padding: 16px 32px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(0,0,0,0.2) 0 5px 20px;
+}
+
+.logo{
+  font-size: 64px;
+  font-weight: 700 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
 }

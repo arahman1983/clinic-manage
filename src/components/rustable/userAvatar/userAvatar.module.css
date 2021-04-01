@@ -1,0 +1,13 @@
+
+.userAvatar{
+  width: 60px;
+  height: auto;
+  border-radius: 50%;
+  overflow: hidden;
+  border: solid 2px var(--main-background);
+  box-shadow: rgba(0,0,0,0.2) 0px 0px 10px;
+}
+
+.userAvatar img{
+  width: 100%;
+}

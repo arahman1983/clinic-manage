@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{Suspense} from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import './mainStyle.css';
@@ -13,9 +13,11 @@ const store = configureStore()
 
 ReactDOM.render(
   <React.StrictMode>
-    <ReduxProvider store={store}>
-      <App />
-    </ReduxProvider>
+    <Suspense fallback={ 'loading' }>
+      <ReduxProvider store={store}>
+        <App />
+      </ReduxProvider>
+    </Suspense>
   </React.StrictMode>,
   document.getElementById('root')
 );

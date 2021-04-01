@@ -1,0 +1,28 @@
+.userData{
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8px;
+}
+
+.userTitle{
+  text-align: initial;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 14px;
+  width: 75%;
+}
+
+.userProfile, .userProfile:hover{
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--main-color);
+  text-decoration: none;
+}
+.userProfile:hover{
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--main-color);
+  text-decoration: none;
+  opacity: 70%;
+}
