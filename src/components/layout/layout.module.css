@@ -1,4 +1,27 @@
 .bodyContainer{
   min-height: calc(100vh - 120px);
   padding: 16px 32px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.menuContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--main-background);
+  margin-inline-end: 16px;
+  border-radius: 8px;
+  height: max-content;
+}
+
+.pageContainer{
+  display: flex;
+  justify-content: flex-start;
+  min-height: calc(100vh - 200px);
+  width: 100%;
+  padding: 16px;
+  margin-top: 16px;
 }

@@ -1,5 +1,11 @@
 {
   "siteName" : "إدارة العيادة الذكية",
   "footer" : "جميع الحقوق محفوظة",
-  "profileLink": "الملف الشخصي"
+  "profileLink": "الملف الشخصي",
+  "routing":{
+    "clinics": "العيادات",
+    "appointments": "المواعيد",
+    "members": "الأعضاء",
+    "patients": "المرضى"
+  }
 }

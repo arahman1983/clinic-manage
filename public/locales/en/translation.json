@@ -1,5 +1,11 @@
 {
   "siteName" : "Smart Clinic management",
   "footer" : "All Rights Received",
-  "profileLink": "Edit Profile"
+  "profileLink": "Edit Profile",
+  "routing":{
+    "clinics": "Clinics",
+    "appointments": "Appointments",
+    "members": "Members",
+    "patients": "Patients"
+  }
 }

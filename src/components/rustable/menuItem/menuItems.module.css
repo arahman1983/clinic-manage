@@ -1,0 +1,20 @@
+.menuItem{
+  border-bottom: solid 1px var(--main-primary);
+  padding: 8px 16px;
+  color: var(--main-color);
+  width: max-content;
+  min-width: 100px;
+  text-align: center;
+  margin-inline: 8px;
+}
+.menuItem:hover{
+  text-decoration: none;
+  background-color: var(--light-background);
+  color: var(--main-color);
+}
+
+.menuItemActive{
+  border-bottom: solid 5px var(--main-primary);
+  color: var(--main-primary);
+  font-weight: 500;
+}
