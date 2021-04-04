@@ -1,5 +1,5 @@
 import { Layout } from "./components";
-import { Clinics } from "./pages";
+import { Clinics , Members} from "./pages";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -8,14 +8,17 @@ function App() {
       <Router>
         <Layout>
             <Switch>
-                <Route path="/">
+                <Route path="/" exact>
+                  <Clinics />
+                </Route>
+                <Route path="/clinics" exact>
                   <Clinics />
                 </Route>
                 <Route path="/appointments">
                   <Clinics />
                 </Route>
                 <Route path="/members">
-                  <Clinics />
+                  <Members />
                 </Route>
                 <Route path="/patients">
                   <Clinics />
