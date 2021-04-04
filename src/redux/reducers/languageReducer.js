@@ -4,7 +4,7 @@ const initialState = {
   isEnglish: true,
 }
 
-export default function langReducer(state = initialState, action) {
+export default function langReducer(state = initialState.isEnglish, action) {
   switch (action.type) {
     case actionType.SET_APP_LANGUAGE:
       return { isEnglish: action.IsEnglish }

@@ -7,5 +7,10 @@
     "appointments": "المواعيد",
     "members": "الأعضاء",
     "patients": "المرضى"
+  },
+  "clinics":{
+    "book" : "احجز الآن",
+    "details" : "التفاصيل",
+    "appointments" : "المواعيد"
   }
 }

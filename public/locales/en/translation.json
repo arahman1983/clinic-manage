@@ -7,5 +7,10 @@
     "appointments": "Appointments",
     "members": "Members",
     "patients": "Patients"
+  },
+  "clinics":{
+    "book" : "Book Now",
+    "details" : "Details",
+    "appointments" : "Appointments"
   }
 }

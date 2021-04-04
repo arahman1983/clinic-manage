@@ -1,5 +1,6 @@
 import {actionType} from '../actionTypes'
 
+
 export function addClinic (clinic) {
   return {
     type: actionType.ADD_CLINIC,
@@ -9,7 +10,7 @@ export function addClinic (clinic) {
 
 export function editClinic (id,clinic) {
   return {
-    type: actionType.ADD_CLINIC,
+    type: actionType.EDIT_CLINIC,
     id,
     clinic,
   }
@@ -17,7 +18,7 @@ export function editClinic (id,clinic) {
 
 export function setClinic (clinics) {
   return {
-    type: actionType.SET_CLINIC,
+    type: actionType.SET_CLINICS,
     clinics : [...clinics],
   }
 }

@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "ar_title": "عيادة مدينة نصر",
+    "en_title": "Nasr City Clinic",
+    "ar_address" : "الجولف، مدينة نصر، محافظة القاهرة‬",
+    "en_address" : "Al Golf, Nasr City, Cairo Governorate",
+    "location": "https://goo.gl/maps/uDZzjZwoAR51VGnV6",
+    "image": "/images/clinic.jpg",
+    "phone": ["01054545455", "01054545466"]
+  },
+  {
+    "id": 2,
+    "ar_title": "عيادة مدينة نصر",
+    "en_title": "Nasr City Clinic",
+    "ar_address" : "الجولف، مدينة نصر، محافظة القاهرة‬",
+    "en_address" : "Al Golf, Nasr City, Cairo Governorate",
+    "location": "https://goo.gl/maps/uDZzjZwoAR51VGnV6",
+    "image": "/images/clinic.jpg",
+    "phone": ["01054545455", "01054545466"]
+  },
+  {
+    "id": 3,
+    "ar_title": "عيادة مدينة نصر",
+    "en_title": "Nasr City Clinic",
+    "ar_address" : "الجولف، مدينة نصر، محافظة القاهرة‬",
+    "en_address" : "Al Golf, Nasr City, Cairo Governorate",
+    "location": "https://goo.gl/maps/uDZzjZwoAR51VGnV6",
+    "image": "/images/clinic.jpg",
+    "phone": ["01054545455", "01054545466"]
+  }
+]

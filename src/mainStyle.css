@@ -3,8 +3,53 @@
   --main-primary: #003f64;
   --main-background: #FFEDDF;
   --success-color: #C5D86D;
-  --danger-color: #86615C;
+  --danger-color: #80433b;
   --light-background: #AFE0CE;
+}
+
+body,html{
+  font-size: 14px;
+}
+
+.btnPrimary{
+  padding:8px 16px;
+  border: solid 1px var(--main-primary);
+  color: var(--main-primary);
+  border-radius: 8px;
+}
+.btnPrimary:hover{
+  padding:8px 16px;
+  background-color: var(--main-primary);
+  color: var(--light-background);
+  opacity: 0.8;
+}
+
+.btnDanger{
+  padding:8px 16px;
+  border: solid 1px var(--danger-color);
+  color: var(--main-primary);
+  border-radius: 8px;
+}
+
+.btnDanger:hover{
+  padding:8px 16px;
+  background-color: var(--danger-color);
+  color:  var(--main-background);
+  border-radius: 8px;
+}
+
+.btnSuccess{
+  padding:8px 16px;
+  border: solid 1px var(--success-color);
+  color: var(--success-primary);
+  border-radius: 8px !important;
+}
+
+.btnSuccess:hover, .btnSuccessActive{
+  padding:8px 16px;
+  background-color: var(--success-color);
+  color: var(--main-color);
+  border-radius: 8px !important;
 }
 .row{
   margin-left: 0px !important;

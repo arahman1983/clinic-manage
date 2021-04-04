@@ -7,20 +7,20 @@ function App() {
     <div className="App">
       <Router>
         <Layout>
-          <Switch>
-            <Route path="/">
-              <Clinics />
-            </Route>
-            <Route path="/appointments">
-              <Clinics />
-            </Route>
-            <Route path="/members">
-              <Clinics />
-            </Route>
-            <Route path="/patients">
-              <Clinics />
-            </Route>
-          </Switch>
+            <Switch>
+                <Route path="/">
+                  <Clinics />
+                </Route>
+                <Route path="/appointments">
+                  <Clinics />
+                </Route>
+                <Route path="/members">
+                  <Clinics />
+                </Route>
+                <Route path="/patients">
+                  <Clinics />
+                </Route>
+            </Switch>
         </Layout>
       </Router>
     </div>

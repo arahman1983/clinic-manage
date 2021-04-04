@@ -1,34 +1,18 @@
 import { actionType } from "../actionTypes";
 
 const initialState = {
-  id:0,
-  titleAr: "",
-  titleEn: "",
-  LocationAr: "",
-  LocationEn: "",
-  phones: [],
-  emails: [],
-  doctors: [
-    {
-      drId:1,
-      AvailableAppointments: [
-        {
-          date: "",
-          times: [],
-        },
-      ],
-    }
-  ]
-};
+  clinics : []
+}
 
-export default function langReducer(state = initialState, action) {
+export default function clinicsReducer(state = initialState.clinics, action) {
   switch (action.type) {
     case actionType.ADD_CLINIC:
-      return { ...action.clinic };
+      return [ ...state, ...action.clinic ];
     case actionType.EDIT_CLINIC:
-      return { ...state, ...action.clinic };
+      const unChanged = state.filter(c => c.id !== action.id)
+      return [ ...unChanged, {...action.clinic} ];
     case actionType.SET_CLINICS:
-      return { ...state };
+      return [...action.clinics];
     default:
       return state;
   }
