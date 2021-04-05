@@ -1,0 +1,64 @@
+.mRow{
+  
+  width: 100%;
+  border-width: 0px;
+  box-shadow: rgba(0,0,0,0.1) 0px 5px 8px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.rowFlex{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.drName{
+  display: flex;
+
+}
+.drName b {
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-inline-start: 16px;
+  width: 250px;
+}
+
+.appointments{
+  font-size: 14px;
+  padding-inline-start: 8px;
+  margin-inline-start: 16px;
+  border-inline-start: solid 1px rgba(128, 128, 128, 0.5);
+}
+
+.appointments b{
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.footer{
+  min-width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.phonesList{
+  min-width: 100px;
+  width: max-content;
+  min-height: 50px;
+  height: max-content;
+  position: absolute;
+  background-color: white;
+  bottom: 30px;
+  right: 0;
+  box-shadow: rgba(0,0,0,0.1) 0px 0px 20px;
+  border-radius: 4px;
+  padding-inline-start: 0px;
+
+}
+
+.phonesList li {
+  list-style: none;
+  border-bottom: var(--main-background) 1px solid;
+}

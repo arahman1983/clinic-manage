@@ -4,8 +4,8 @@
   height: auto;
   border-radius: 50%;
   overflow: hidden;
-  border: solid 2px var(--main-background);
-  box-shadow: rgba(0,0,0,0.2) 0px 0px 10px;
+  border: solid 3px var(--main-background);
+  box-shadow: rgba(0,0,0,0.4) 0px 0px 10px;
 }
 
 .userAvatar img{

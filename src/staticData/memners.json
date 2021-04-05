@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "c_id": 1,
+    "ar_name": "",
+    "en_name": "Dr.Mostafa Abol Azayem",
+    "image": "",
+    "appointments": [
+      {
+        "day": "Sunday",
+        "from": "3:00 PM",
+        "to": "8:00 PM"
+      },
+      {
+        "day": "Tuesday",
+        "from": "3:00 PM",
+        "to": "8:00 PM"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "c_id": 2,
+    "ar_name": "",
+    "en_name": "Dr.Mahmoud Abol Azayem",
+    "image": "",
+    "appointments": [
+      {
+        "day": "Sunday",
+        "from": "3:00 PM",
+        "to": "8:00 PM"
+      },
+      {
+        "day": "Tuesday",
+        "from": "3:00 PM",
+        "to": "8:00 PM"
+      }
+    ]
+  }
+]

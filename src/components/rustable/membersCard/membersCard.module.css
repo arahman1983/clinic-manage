@@ -1,0 +1,50 @@
+.gridCard{
+  height: max-content;
+  border-width: 0px;
+  box-shadow: rgba(0,0,0,0.1) 0px 5px 8px;
+  border-radius: 8px;
+  position: relative;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardTitle{
+  display: block;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.gridCard p{
+  font-size: 14px;
+  color: gray;
+  line-height: 2;
+}
+
+.gridCard p b{
+  color: var(--main-primary);
+  opacity: 0.8;
+  font-weight: 500 !important;
+}
+
+
+.phonesList{
+  min-width: 100px;
+  width: max-content;
+  min-height: 50px;
+  height: max-content;
+  position: absolute;
+  background-color: white;
+  bottom: 30px;
+  right: 0;
+  box-shadow: rgba(0,0,0,0.1) 0px 0px 20px;
+  border-radius: 4px;
+  padding-inline-start: 0px;
+
+}
+
+.phonesList li {
+  list-style: none;
+  border-bottom: var(--main-background) 1px solid;
+}

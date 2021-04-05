@@ -83,3 +83,19 @@ body,html{
 body{
   background-color: var(--main-background);
 }
+
+.btn-link{
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+.btn-link:hover{
+  color: var(--main-color);
+  text-decoration: none;
+  opacity: 0.2;
+}
+
+.row{
+  margin-left: 0  !important;
+  margin-right: 0  !important;
+}
