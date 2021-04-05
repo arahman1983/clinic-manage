@@ -6,7 +6,7 @@ import {FiPhoneCall, FiMapPin} from 'react-icons/fi'
 import {Link} from 'react-router-dom'
 import { useTranslation } from 'react-i18next';
 import { arabicDay } from '../../../helpers'
-import {UserAvatar} from '../../../components'
+import {UserAvatar, BookComponent} from '../../../components'
 
 
 function MembersRow ({c_id, pic, name, appointments}) {
@@ -47,6 +47,7 @@ function MembersRow ({c_id, pic, name, appointments}) {
             <Link to='/members' className={`btn btnPrimary w-50`}>
               {t('clinics.book')}
             </Link>
+            <BookComponent/>
             <div class="btn-group" role="group">
               <button 
                 className={showPhone ? "btn btnSuccessActive" : "btn btnSuccess"}
